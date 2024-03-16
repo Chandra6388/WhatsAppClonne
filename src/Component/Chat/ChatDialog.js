@@ -5,7 +5,6 @@ import EmptyChat from './Chat/EmptyChat';
 
 const dialogStyle = {
   height: '95%',
-
   width: '100%',
   margin: '1%',
   maxWidth: '100%',
@@ -21,14 +20,14 @@ display: flex;
 `
 
 const LeftComponent = styled(Box)`
-min-width:25%
+min-width:38%
 `
 
 const RightComponent = styled(Box)`
-width:75%;
-min-width: 300px;
-height:100%;
-border-left: 1px solid rgba(0,0,0,0.14);
+width:900;
+min-width: 62%;
+height:92.2vh;
+border-left: 3px solid rgba(0,0,0,0.14);
 `
 
 function ChatDialog() {
